@@ -2,14 +2,14 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import streamlit as st
-import sklearn
+from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 
 # Load the training and testing data
-train_data = pd.read_csv('/Users/succhaygadhar/Downloads/archive (1) 2/Training.csv')
-test_data = pd.read_csv("/Users/succhaygadhar/Downloads/archive (1) 2/Testing.csv")
+train_data = pd.read_csv('/workspaces/senseai/Training.csv')
+test_data = pd.read_csv('/workspaces/senseai/Testing.csv')
 
 # Select features and target variable for training data
 X_train = train_data.drop(columns=['prognosis'])
@@ -31,7 +31,6 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Model Accuracy:", accuracy)
 
 # Streamlit UI
-st.image("/Users/succhaygadhar/Documents/Logo.png", width = 400)
 st.title("SymptomSense: AI Health Diagnosis")
 
 # Ask for symptoms from the user
@@ -76,7 +75,7 @@ y_pred = rf_model.predict(X_train)
 # Compute confusion matrix
 cm = confusion_matrix(y_train, y_pred)
 
-# Plot confusion matrix
+#Plot confusion matrix
 plt.figure(figsize=(12, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=rf_model.classes_, yticklabels=rf_model.classes_)
 plt.xlabel('Predicted')
