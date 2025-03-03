@@ -1,4 +1,6 @@
-# Project 1 -Linked List![image](https://github.com/user-attachments/assets/8b749207-d822-44c6-902e-97d2b01e489e)
+# Project 1 -Linked List
+
+**Development Environment**
+This project was developed using IntelliJ IDEA. No other IDEs were used to develop this project as per the constraints given in the assignment.
 
 
-****
