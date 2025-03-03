@@ -25,4 +25,138 @@ Contains the main method and manages user interactions. It uses a command-line i
 
 This project was developed using IntelliJ IDEA. No other IDEs were used to develop this project as per the constraints given in the assignment.
 
+# Sample Run:
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 3
+Enter Product ID: 100
+Enter Product Name: Bananas
+Enter Supplier Name: Dole
+Product added.
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 2
+Enter Product ID to find: 100
+100
+Bananas
+Dole
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 3
+Enter Product ID: 101
+Enter Product Name: Apple
+Enter Supplier Name: Honeyscrisp
+Product added.
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 6
+101
+Apple
+Honeyscrisp
+100
+Bananas
+Dole
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 2
+Enter Product ID to find: 101
+101
+Apple
+Honeyscrisp
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 4
+101
+Apple
+Honeyscrisp
+First item deleted.
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 6
+100
+Bananas
+Dole
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 1
+List has been made empty.
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 6
+List is empty
+
+Operations on List:
+1. Make Empty
+2. Find ID
+3. Insert At Front
+4. Delete From Front
+5. Delete ID
+6. Print All Records
+7. Done
+Your choice: 7
+Done.
+
 
